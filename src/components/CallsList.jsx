@@ -1,5 +1,7 @@
+import CallsListItem from './CallsListItem';
+
 const CallsList = () => {
-	return;
+	return <CallsListItem />;
 };
 
 export default CallsList;

@@ -1,5 +1,5 @@
 const CallsListItem = () => {
-	return;
+	return <p>I am a call</p>;
 };
 
 export default CallsListItem;
