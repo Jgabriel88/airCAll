@@ -11,9 +11,7 @@ const CallsListItem = (props) => {
 			<Accordion defaultActiveKey={props.key} className={'mb-3'}>
 				<Card>
 					<Card.Header>{props.from}</Card.Header>
-					<Accordion.Collapse eventKey={props.key}>
-						<Card.Body>tried to call on {props.to}</Card.Body>
-					</Accordion.Collapse>
+					<span>tried to call on {props.to}</span>
 				</Card>
 			</Accordion>
 		</div>
