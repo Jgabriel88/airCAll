@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import CallsList from './components/CallsList.jsx';
-
 import Header from './Header.jsx';
 
 const App = () => {

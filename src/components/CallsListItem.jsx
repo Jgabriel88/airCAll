@@ -1,3 +1,5 @@
+import '../css/body.css';
+
 const CallsListItem = (props) => {
 	console.log('PROPS', props);
 	return (
