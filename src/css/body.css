@@ -22,5 +22,11 @@ body {
 
 .callItem {
 	border: 1px solid black;
-	margin-bottom: 0.7em;
+	margin-bottom: 0.6em;
+}
+
+.createdDate {
+	display: block;
+	align-self: center;
+	justify-content: center;
 }
