@@ -20,10 +20,23 @@ const CallsList = () => {
 	}, []);
 
 	const callItem = state.calls.map((call) => {
-		return <CallsListItem />;
+		return (
+			<CallsListItem
+				key={call.id}
+				type={call.call_type}
+				created={call.created_at}
+				direction={call.direction}
+				duration={call.duration}
+				from={call.from}
+				id={call.id}
+				isArchived={call.is_archived}
+				to={call.to}
+				via={call.via}
+			/>
+		);
 	});
 
-	console.log(state);
+	return <div className={'callsList'}>{callItem}</div>;
 };
 
 export default CallsList;
