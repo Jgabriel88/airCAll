@@ -1,7 +1,6 @@
 import '../css/body.css';
 import Accordion from 'react-bootstrap/Accordion';
 import Card from 'react-bootstrap/Card';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 const CallsListItem = (props) => {
 	console.log('PROPS', props.create);
